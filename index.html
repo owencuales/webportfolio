@@ -11,55 +11,165 @@
 <body>
 	<section id="landingPage">
 		<nav class="navbar navbar-expand-md navbar-light">
-		  <a class="navbar-brand" href="#" style="font-size: 2rem; font-weight: 450;"><img src="./icon.png">Owen Cuales 🚀</a>
+		  <a class="navbar-brand" href="#" id="navLine"><img src="./icon.png">Owen Cuales 🚀</a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
 		  <div class="collapse navbar-collapse" id="collapsibleNavbar">
 		    <ul class="navbar-nav ml-auto">
 		      <li class="nav-item">
-		        <a href="#" class="hover">Home</a>
+		        <a href="#landingPage" class="hover">Home</a>
 		      </li>
 		      <li class="nav-item">
-		        <a href="#" class="hover">About</a>
-		      </li>
+		        <a href="#secondPage" class="hover">About</a>
+		      </li><!-- 
 		      <li class="nav-item">
 		      	<a href="#" class="hover">Blog</a>
-		      </li>
+		      </li> -->
 		      <li class="nav-item">
-		        <a href="#" class="hover">Portfolio</a>
+		        <a href="#thirdPage" class="hover">Portfolio</a>
 		      </li>    
 		    </ul>
 		  </div>  
 		</nav>
-		<p style="position: absolute;" class="d-none d-md-block">01</p> 
+		<p class="d-none d-md-block" id="pageNumber">01</p> 
 		<div class="container">
-
-			<div class="row justify-content-center align-items-center" style="height: 70vh;">
+			<div class="row justify-content-center align-items-center" id="centerPage">
 				<!-- <div class="col-md-1 d-none d-lg-block"><p style="font-size: 10rem; width: 100%;">01 Hello</p></div> -->
 				<div class="col-md-6 text-center">
-					<img src="./astro.png" class="img-fluid" style="height: 30vh;">
+					<img src="./astro.png" class="img-fluid" id="astroLanding">
 					<p>👋 Hi, I'm Owen!</p>
 					<p>I'm a Full Stack Web Developer</p>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section id="secondPage">
+	<section id="secondPage" class="justify-content-center">
+		<p class="d-none d-md-block" id="pageNumber">02</p>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6 border border-dark bg-white">
-					<div class="row">
-						<div class="col-md-10 justify-content-center">1</div>
-						<div class="col-md-10 justify-content-center">2</div>
+				<div class="col-lg-4 bg-white">
+					<h3>About Me</h3>
+					<p class="justify">
+					Hello, I'm Owen Cuales. I'm 23. I graduated from UP, Political Science. Thereafter, I worked as an equities trader for a local brokerage firm for a year. I then left my job to pursue law full-time.</p>
+					<figure>
+						<blockquote class="justify" cite="https://google.com">
+							<q>If I have seen further than others, it is by standing upon the shoulders of giants.</q>
+						</blockquote>
+						<figcaption>-Isaac Newton</figcaption>
+					</figure>
+					<div class="text-center">
+						<a href="https://www.facebook.com/Altarisss/" target="_blank"><i class="fab fa-facebook my-3 socmed"></i></a>
+						<a href="https://twitter.com/OwenCuales" target="_blank"><i class="fab fa-twitter my-3 socmed" aria-hidden="true"></i></a>
+						<a href="https://www.linkedin.com/in/owencuales/" target="_blank"><i class="fab fa-linkedin my-3 socmed" aria-hidden="true"></i></a>
 					</div>
 				</div>
-				<div class="col-md-6 border border-dark bg-white">
-					3
+			</div>
+		</div>
+		<!-- <div class="container bg-white" id="secondPageCenter">
+			<h3 class="text-center">These are things I like:</h3>
+			<div class="row" id="divSecond">
+				<div class="col-12 col-md-4" id="sv">
+					<img src="./sv.jpg" class="img-fluid" style="height: 100%; width: 100%;">
+				</div>
+				<div class="col-12 col-md-4 bg-primary">
+					<div class="row" id="divSecondCard">
+						<div class="col-md-12" id="billions">
+							<img src="./billions.jpg" class="img-fluid" style="width: 100%; height: 100%;">
+						</div>
+						<div class="col-md-12" id="hibt">
+							<img src="./hibt.jpg" class="img-fluid" style="width: 100%; height: 100%;">
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-4" id="z2o">3</div>
+			</div>
+		</div> -->
+	</section>
+
+	<section id="thirdPage">
+		<p class="d-none d-md-block" id="pageNumber">03</p>
+		<div class="container bg-white" id="secondPageCenter">
+
+				<h3>Portfolio</h3>
+			<div class="row" id="divSecond">
+				<div class="col-12 col-md-4 my-2">
+					<img src="./sv.jpg" class="img-fluid" style="height: 100%; width: 100%;">
+				</div>
+				<div class="col-12 col-md-4 my-2">
+					<img src="./sv.jpg" class="img-fluid" style="height: 100%; width: 100%;">
+				</div>
+				<div class="col-12 col-md-4 my-2">
+					<img src="./sv.jpg" class="img-fluid" style="height: 100%; width: 100%;">
 				</div>
 			</div>
 		</div>
 	</section>
+
+<!-- 	<section id="thirdPage" class="justify-content-center">
+		<p class="d-none d-md-block" id="pageNumber">03</p>
+		<div class="container bg-white border border-dark" id="secondPageCenter">
+			<div class="row justify-content-center align-items-center" id="divSecond">
+				<div class="col-12 col-md-4">
+					<h3 class="text-center">My Skills</h3>
+				</div>
+				<div class="col-12 col-md-4 bg-primary">
+					<div class="row d-flex justify-content-center flex-wrap" id="divSecondCard">
+						<div class="col-md-12">
+							<div class="row d-flex justify-content-center">
+								<h3 class="col-md-12 text-center">Front End</h3>
+								<div> 
+									<img src="./images/logo-html5.png" class="img-fluid skills">
+								</div>
+								<div>
+									<img src="./images/logo-css3.png" class="img-fluid skills">
+								</div>
+								<div>
+									<img src="./images/logo-javascript.png" class="img-fluid skills">
+								</div>
+								<div>
+									<img src="./images/logo-bootstrap.png" class="img-fluid skills">
+								</div>
+							</div>
+							<div class="row d-flex justify-content-center">
+								<h3 class="col-md-12 text-center">Front End</h3>
+								<div> 
+									<img src="./images/logo-bootstrap.png" class="img-fluid skills">
+								</div>
+								<div>
+									<img src="./images/logo-expressjs.png" class="img-fluid skills">
+								</div>
+								<div>
+									<img src="./images/logo-git.png" class="img-fluid skills">
+								</div>
+								<div>
+									<img src="./images/logo-gitlab-ci-cd.png" class="img-fluid skills">
+								</div>
+								<div>
+									<img src="./images/logo-heroku.png" class="img-fluid skills">
+								</div>
+								<div>
+									<img src="./images/logo-mongodb.png" class="img-fluid skills">
+								</div>
+								<div>
+									<img src="./images/logo-nodejs.png" class="img-fluid skills">
+								</div>
+								<div>
+									<img src="./images/logo-postman.png" class="img-fluid skills">
+								</div>
+								<div>
+									<img src="./images/logo-react.png" class="img-fluid skills">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-4">
+					<h3 class="col-md-12 text-center">Others</h3>
+				</div>
+			</div>
+		</div>
+	</section> -->
 
 
 	<!--- Script Source Files -->

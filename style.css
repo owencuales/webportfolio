@@ -3,6 +3,7 @@
 	margin: 0;
 	padding: 0;
 	font-family: 'Poppins'; sans-seriff;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -10,11 +11,22 @@ body {
 	background-size: cover;
 }
 
+/*Nav*/
+
 #landingPage {
 	height: 100vh;
 	/*background-color: black;*/
 	 /*background-image: linear-gradient(40deg, #cdc8c8 50%, lightgray 50%);
 */}
+
+#navLine {
+	font-size: 2rem;
+	font-weight: 450;
+}
+
+li > a {
+	color: black;
+}
 
 .hover {
 	color: black;
@@ -46,18 +58,27 @@ body {
 	transition: 0.5s ease-in-out;
 }
 
+/*End of Nav*/
+
+/*Landing Page*/
+
 a > img {
 	height: 10vh;
 }
 
-nav ~ p {
+#pageNumber {
 	writing-mode: tb-rl;
 	font-size: 5rem;
 	margin-top: 70vh;
+	position: absolute;
 }
 
-li > a {
-	color: black;
+#centerPage {
+	height: 70vh;
+}
+
+#astroLanding {
+	height: 30vh;
 }
 
 .nav-item {
@@ -70,10 +91,71 @@ div > span {
 	writing-mode: tb-rl;
 }
 
+/* End of First Page */
 
+/* Second Page */
 
-
+.justify {
+	text-align: justify;
+}
 
 #secondPage {
 	height: 100vh;
+	padding-top: 15vh;
 }
+
+.socmed {
+	font-size: 2rem;
+	margin-left: 1.1rem;
+	margin-right: 1.1rem;
+	color: black;
+}
+
+.socmed:hover {
+	color: gray;
+}
+
+/*#secondPageCenter {
+	height: 60vh;
+}
+
+#divSecond {
+	height: 60vh;
+}
+
+/*#divSecondCard {
+	height: 60vh;
+}*/
+
+/*#sv {
+	background-image: url(sv.jpg);
+	background-size: cover;
+}
+
+#billions {
+	background-image: url(billions.jpg);
+	background-size: cover;
+}
+
+#hibt {
+	background-image: url(hibt.jpg);
+	background-size: cover;
+}
+
+#z2o {
+	background-image: url(z2o.jpg);
+	background-size: cover;
+}*/
+
+/* End of Second Page */
+
+/* Third Page  */
+
+#thirdPage {
+	height: 100vh;
+	padding-top: 15vh;
+}
+/*
+.skills {
+	width: 80px;
+}*/
